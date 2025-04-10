@@ -18,10 +18,12 @@ function App() {
 
     let updated = movies /* salvo i film nella variabile updated */
 
-    if (searchGenre !== "") { /* uso la negazione per dire che se la categoria non è vuota, allora è quella scelta dall'utente */
+    if (searchGenre !== "") { // uso la negazione per dire che se la categoria non è vuota, allora è quella scelta dall'utente */
       updated = movies.filter(movies => movies.genre === searchGenre) /* confronto ogni film con il genere cercato */
     }
-  })
+
+    setFilteredMovies(updatedMovies) //aggiorna la lista filtrata
+  }, [searchGenre, movies])
 
 
 
