@@ -14,6 +14,14 @@ function App() {
   const [filteredmovies, setFilteredMovies] = useState(movies) /* nuovo array con film filtrati */
   const [searchGenre, setSearchGenre] = useState("") /* searchGenre è lo stato attuale, setSearchGenre è la funzione per aggiornarlo, useState("") lo inizializziamo con una stringa vuota */
 
+  useEffect(() => {  /* useEffect esegue il codice quando qualcosa cambia */
+
+    let updated = movies /* salvo i film nella variabile updated */
+
+
+  })
+
+
 
 
   return (
