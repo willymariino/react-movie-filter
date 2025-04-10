@@ -18,7 +18,9 @@ function App() {
 
     let updated = movies /* salvo i film nella variabile updated */
 
+    if (searchGenre !== "") { /* uso la negazione per dire che se la categoria non è vuota, allora è quella scelta dall'utente */
 
+    }
   })
 
 
