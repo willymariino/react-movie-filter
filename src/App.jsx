@@ -42,6 +42,16 @@ function App() {
           <option value="Azione">Azione</option>
         </select>
       </section>
+
+      <ul>
+        {filteredmovies.map((movie, index) => (
+          <li key={index}> {movie.genre}</li>
+
+        )
+
+        )}
+
+      </ul>
     </>
   )
 }
