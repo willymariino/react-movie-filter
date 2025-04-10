@@ -34,7 +34,7 @@ function App() {
 
       <section>
         <h2>cerca i film</h2>
-        <select>
+        <select value={searchGenre} onChange={e => setSearchGenre(e.target.value)}>
           <option value="">scegli il genere</option>
           <option value="Fantasceinza">Fantascienza</option>
           <option value="Romantico">Romantico</option>
