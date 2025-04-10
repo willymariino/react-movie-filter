@@ -22,7 +22,7 @@ function App() {
       updated = movies.filter(movies => movies.genre === searchGenre) /* confronto ogni film con il genere cercato */
     }
 
-    setFilteredMovies(updatedMovies) //aggiorna la lista filtrata
+    setFilteredMovies(updated) //aggiorna lo stato con il nuovo array filtrato 
   }, [searchGenre, movies])
 
 
