@@ -23,7 +23,7 @@ function App() {
     }
 
     setFilteredMovies(updated) //aggiorna lo stato con il nuovo array filtrato 
-  }, [searchGenre, movies])
+  }, [searchGenre, movies]) // rende visibile a schermo solo i post filtrati
 
 
 
