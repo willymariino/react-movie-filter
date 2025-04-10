@@ -23,14 +23,25 @@ function App() {
     }
 
     setFilteredMovies(updated) //aggiorna lo stato con il nuovo array filtrato 
-  }, [searchGenre, movies]) // rende visibile a schermo solo i post filtrati
-
+  }, [searchGenre, movies]) // dipendenza array, vuol dire che fa eseguire il codice ogni volta che uno dei due cambia
 
 
 
   return (
     <>
 
+      <h1>lista dei film</h1>
+
+      <section>
+        <h2>cerca i film</h2>
+        <select>
+          <option value="">scegli il genere</option>
+          <option value="Fantasceinza">Fantascienza</option>
+          <option value="Romantico">Romantico</option>
+          <option value="Thriller">Thriller</option>
+          <option value="Azione">Azione</option>
+        </select>
+      </section>
     </>
   )
 }
