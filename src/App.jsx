@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-[
+const movies = [
   { title: 'Inception', genre: 'Fantascienza' },
   { title: 'Il Padrino', genre: 'Thriller' },
   { title: 'Titanic', genre: 'Romantico' },
