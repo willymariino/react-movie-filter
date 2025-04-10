@@ -45,7 +45,7 @@ function App() {
 
       <ul>
         {filteredmovies.map((movie, index) => (
-          <li key={index}> {movie.genre}</li>
+          <li key={index}> {movie.genre}, {movie.title}</li>
 
         )
 
