@@ -66,8 +66,8 @@ export default App
 
 /* 
 
-Ho rimosso la dipendenza 'movies' dall'array delle dipendenze di useEffect, lasciando solo 'searchGenre'.
+Ho rimosso la dipendenza 'movies' dall'array delle dipendenze di useEffect, lasciando solo 'searchGenre'.  
 
- L'array delle dipendenze di useEffect serve a dire a React quando deve rieseguire l'effetto. La variabile 'movies' è una costante dichiarata fuori dal componente e non cambia mai durante il ciclo di vita del componente. Includerla tra le dipendenze è inutile e può generare un warning, perché React si aspetta che le dipendenze siano valori che possono cambiare e causare un nuovo rendering. In questo caso, solo 'searchGenre' può cambiare e quindi basta come dipendenza.
+ L'array delle dipendenze di useEffect serve a dire a React quando deve rieseguire l'effetto. La variabile 'movies' è una costante dichiarata fuori dal componente e non cambia mai durante il ciclo di vita del componente. Includerla tra  le dipendenze è inutile e può generare un warning, perché React si aspetta che le dipendenze siano valori che possono  cambiare e causare un nuovo rendering. In questo caso, solo 'searchGenre' può cambiare e quindi basta come dipendenza. 
 
 */
