@@ -2,7 +2,7 @@
 [![Live Demo](https://img.shields.io/badge/live-demo-brightgreen)](https://react-moviefilter.netlify.app/)
 
 ## Project Overview
-This is a simple React application built with Vite, designed to practice filtering arrays of objects and managing component state. 
+This is a simple React application designed to practice filtering arrays of objects and managing component state. 
 The app displays a list of movies that can be filtered by genre using a dropdown menu, updating the UI dynamically as the user selects different options.
 
 ## Features
